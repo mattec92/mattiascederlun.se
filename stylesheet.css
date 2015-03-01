@@ -1,0 +1,28 @@
+body {
+	background-color:#ffffff;
+}
+
+h1 {
+	font: 36px Georgia, serif;
+	color:#000000;
+}
+
+a {
+	font: 14px Georgia, serif;
+	color:#000000;
+}
+
+#mainContainer {
+	margin:100px;
+}
+
+.logoContainer {
+	margin:20px 20px 20px 0px;
+}
+
+.logo {
+	height:50px;
+	width:50px;
+	vertical-align:middle;
+	margin:0px 10px 0px 0px;
+}
