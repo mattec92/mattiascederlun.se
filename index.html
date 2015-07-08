@@ -8,6 +8,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+		
+		<!-- Initialize Google Analytics. -->
+        <script src="analytics_setup.js"></script>
     </head>
     <body>
         <div class="container">
@@ -19,13 +22,13 @@
                     <h3 class="sr-only">LinkedIn</h3>
                     <img class="logo" src="img/In-2C-121px-TM.png">
                     <p>View my profile on LinkedIn.</p>
-                    <a href="https://se.linkedin.com/in/mattiascederlund1" target="_blank">linkedin.com/in/mattiascederlund1</a>
+                    <a id="linkedinLink" href="https://se.linkedin.com/in/mattiascederlund1" target="_blank">linkedin.com/in/mattiascederlund1</a>
                 </div>
                 <div class="col-sm-6">
                     <h3 class="sr-only">Email</h3>
                     <img class="logo" src="img/at_sign.png">
                     <p>Send me an email.</p>
-                    <a href="mailto:mattec92@gmail.com">mattec92@gmail.com</a>
+                    <a id="emailLink" href="mailto:mattec92@gmail.com">mattec92@gmail.com</a>
                 </div>
             </div>
             <div class="row">
@@ -33,13 +36,13 @@
                     <h3 class="sr-only">Phoniac</h3>
                     <img class="logo" src="img/l_launcher.png">
                     <p>Get my app - Phoniac - on Google Play.</p>
-                    <a href="https://play.google.com/store/apps/details?id=se.mattec.phoniac" target="_blank">play.google.com/store/apps/details?id=se.mattec.phoniac</a>
+                    <a id="phoniacLink" href="https://play.google.com/store/apps/details?id=se.mattec.phoniac" target="_blank">play.google.com/store/apps/details?id=se.mattec.phoniac</a>
                 </div>
                 <div class="col-sm-6">
                     <h3 class="sr-only">Github</h3>
                     <img class="logo" src="img/GitHub-Mark-120px-plus.png">
                     <p>View the source of this site on Github.</p>
-                    <a href="https://github.com/mattec92/mattiascederlund.se" target="_blank">github.com/mattec92/mattiascederlund.se</a>
+                    <a id="githubLink" href="https://github.com/mattec92/mattiascederlund.se" target="_blank">github.com/mattec92/mattiascederlund.se</a>
                 </div>
             </div>
         </div>
@@ -48,6 +51,9 @@
                 <p class="text-muted">Mattias Cederlund, 2015</p>
             </div>
         </footer>
+		
+		<!-- Setup for Google Analytics events to track. -->
+        <script src="analytics_operation.js"></script>
     </body>
 </html>
 
