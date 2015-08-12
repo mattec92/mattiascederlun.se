@@ -22,6 +22,9 @@ if (DEBUG) {
         TRACKING_ID, {
             'cookieDomain': 'none'
         });
+
+    ga('set', 'checkProtocolTask', function() { /* nothing */ });
+    ga('set', 'checkStorageTask', function() { /* nothing */ });
 }
 else {
     (function(i, s, o, g, r, a, m) {
@@ -39,6 +42,4 @@ else {
     ga('create', TRACKING_ID, 'auto');
 }
 
-ga('set', 'checkProtocolTask', function() { /* nothing */ });
-ga('set', 'checkStorageTask', function() { /* nothing */ });
 ga('send', 'pageview');
